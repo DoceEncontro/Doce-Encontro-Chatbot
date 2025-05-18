@@ -1,0 +1,114 @@
+version: "3.1"
+
+rules:
+
+
+- rule: Responder quando não entender
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: despedir
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Perguntar se deseja mais algo depois do agradecimento
+  steps:
+  - intent: tks
+  - action: utter_happy
+
+- rule: Ensine a fazer login
+  steps: 
+  - intent: login_user
+  - action: utter_login
+
+- rule: Ensine a criar evento
+  steps:
+  - intent: cria_evento
+  - action: utter_cria_evento
+
+- rule: Ensine a editar evento
+  steps:
+  - intent: edita_evento
+  - action: utter_edita_evento
+
+- rule: Ensine a excluir um evento
+  steps:
+  - intent: exclui_evento
+  - action: utter_exclui_evento
+
+- rule: Ensine a cadastrar um presente
+  steps:
+  - intent: cad_presente
+  - action: utter_cad_presente
+
+- rule: Ensine a editar um presente
+  steps:
+  - intent: edita_presente
+  - action: utter_edita_presente
+
+- rule: Ensine a excluir um presente
+  steps:
+  - intent: exclui_presente
+  - action: utter_exclui_presente
+
+- rule: Ensine a entregar um presente
+  steps:
+  - intent: entrega_presente
+  - action: utter_entrega_presente
+
+- rule: Ensine a ver os participantes
+  steps:
+  - intent: ver_part
+  - action: utter_ver_part
+  
+- rule: Ensine a ver os convidados
+  steps:
+  - intent: ver_guests
+  - action: utter_ver_guests
+
+- rule: Ensine a convidar amigos
+  steps:
+  - intent: guest
+  - action: utter_guest
+
+- rule: Ensine a gerar link para compartilhar
+  steps:
+  - intent: out_guest
+  - action: utter_out_guest
+
+- rule: Ensine a ver o endereço
+  steps: 
+  - intent: ver_local
+  - action: utter_ver_local
+
+- rule: Ensine a deletar um convite
+  steps:
+  - intent: del_guest
+  - action: utter_del_guest
+
+- rule: Ensine a procurar amigos
+  steps:
+  - intent: add_amg
+  - action: utter_add_amg
+
+- rule: Ensine a aceitar ou recusar solicitações
+  steps:
+  - intent: acc_amg
+  - action: utter_acc_amg
+
+- rule: Ensine a sair de um evento 
+  steps:
+  - intent: exit_evento
+  - action: utter_exit_evento
+
+- rule: Ensine a ver os convites
+  steps:
+  - intent: ver_convites
+  - action: utter_ver_convites

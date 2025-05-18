@@ -1,0 +1,253 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - ola
+    - oi
+    - bom dia
+    - boa tarde
+    - boa noite
+    - ei
+    - aoba
+    - hey
+    - boa
+    - iai
+    - eae
+    - salve
+
+- intent: despedir
+  examples: |
+    - tchau
+    - falou
+    - flw
+    - valeu
+    - adeus
+    - tenha um bom dia
+    - ate mais
+    - ate
+    - tchau tchau
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - s
+    - ss
+    - claro
+    - isso
+    - correto
+    - eh 
+    - é
+    - yes
+    - foi
+
+- intent: recusar
+  examples: |
+    - nao
+    - n
+    - nn
+    - nunca
+    - acho que nao
+    - nao gostei
+    - nem
+    - nada
+    - no
+
+- intent: tks
+  examples: |
+    - valeu
+    - vlw
+    - obg
+    - obgd
+    - obrigado
+    - brigada
+    - obrigada
+    - gradece
+    - agradeço
+
+- intent: bot_challenge
+  examples: |
+    - você é um robô?
+    - voce é um humano?
+    - voce é um bot?
+    - estou falando com um bot?
+    - estou falando com um humano?
+    - estou falando com um robô?
+
+- intent: cadastro_user
+  examples: |
+    - Como eu cadastro um usuário?
+    - Me explica como adicionar um novo usuário?
+    - Onde eu vou para cadastrar um usuário?
+    - como cadastra usuario?
+    - onde eu me cadastro?
+    - como faz para realizar um cadastro?
+    - quero me cadastrar.
+    - não tenho cadastro
+    - não possuo cadastro
+    - ainda nao tenho cadastro
+    - ainda nao fiz conta
+    - nao tenho conta
+
+- intent: login_user
+  examples: |
+    - Como eu faço login?
+    - como eu entro no app?
+    - como eu logo?
+    - onde faz login?
+    - como entra no app?
+
+- intent: cria_evento
+  examples: |
+    - Como eu crio um evento?
+    - como faz para criar um evento?
+    - como realizo um evento?
+    - como eu crio um cha de bebe?
+    - como eu crio um cha de fralda?
+    - como eu crio um cha revelação?
+    - como eu faço para criar um evento?
+
+- intent: ver_evento
+  examples: |
+    - como eu vejo um evento ja criado?
+    - como faz para ver evento?
+    - onde estao meus eventos?
+    - como faz para ver os eventos?
+    - como eu vejo mais informações sobre os eventos?
+    - como faço para ver detalhes de um evento?
+    - onde eu vejo mais detalhes do evento?
+    - quero ver mais especificações dos eventos?
+    - onde vejo informações mais especificas de um evento?
+
+- intent: edita_evento
+  examples: |
+    - como eu edito um evento?
+    - como faz para editar um evento?
+    - como edito um evento ja criado?
+    - onde eu vou para editar o evento que criei?
+
+- intent: exclui_evento
+  examples: |
+    - como eu excluo um evento que criei?
+    - como eu excluo um evento?
+    - como eu faço para excluir um evento?
+    - onde exclui meus evento?
+    - onde excluo meus eventos?
+    - como faço para excluir meus eventos?
+
+- intent: cad_presente
+  examples: |
+    - como eu cadastro um presente?
+    - como eu insiro um presente que ainda nao tem?
+    - onde eu cadastro presente?
+    - como eu cadastro um presente em um evento?
+
+- intent: edita_presente
+  examples: |
+    - como eu edito um presente?
+    - como eu edito uma informação de um presente?
+    - como eu altero as informações de um presente?
+    - onde eu altero informações sobre um presente?
+    - como eu mudo meu presente?
+
+- intent: exclui_presente
+  examples: |
+    - como eu excluo um presente?
+    - como eu retiro um presente?
+    - como eu deleto um presente?
+    - como eu faço para excluir um presente?
+    - como retiro um presente de um evento?
+    - onde vou para excluir um presente?
+
+- intent: entrega_presente
+  examples: | 
+    - como eu escolho o presente que vou dar?
+    - como eu entrego um presente?
+    - como eu escolho o presente?
+    - como determino o presente que vou entregar?
+    - como eu faço para escolher um presente para dar?
+    - onde seleciono a entrega do presente?
+
+- intent: ver_part
+  examples: |
+    - onde eu vejo quem vai no evento?
+    - como eu vejo os participantes do evento?
+    - como eu vejo quem confimou presença no evento?
+    - onde eu vejo quem estara presente no evento?
+    - onde eu vejo quem vai?
+    - como faço para ver quem estara em um evento?
+
+- intent: ver_guests
+  examples: |
+    - convidados
+    - onde eu vejo quem foi convidado para o evento?
+    - como eu vejo os convidados do evento?
+    - como faço para ver os convidados de um evento?
+
+- intent: guest
+  examples: |
+    - como eu convido um amigo?
+    - como eu convido um amigo para um evento?
+    - como faço para convidar alguem para um evento?
+    - como eu chamo um amigo para o evento?
+    - como convido um amigo para a festa?
+
+- intent: out_guest
+  examples: |
+    - como eu convido alguem de fora do app?
+    - como eu convido alguem que ainda não tem cadastro?
+    - como eu convido um amigo por link?
+    - como eu envio um link de convite?
+    - como eu gero um link de convite?
+    - onde eu vou para convidar um amigo que ainda não possui cadastro no aplicativo?
+
+- intent: ver_local
+  examples: |
+    - onde eu vejo onde e a festa?
+    - onde vejo o local da festa?
+    - onde posso ver onde vai ser o evento?
+    - onde sera um evento que vou?
+    - como faço pra ver o endereço do evento?
+    - em que lugar vai ser o evento que vou?
+
+- intent: del_guest
+  examples: |
+    - como desconvido alguem?
+    - como faço para retirar o convite de alguem?s
+    - como retiro um convite que fiz sem querer?
+    - onde removo o convite de alguem?
+    - convidei pessoas erradas para o meu evento como eu tiro?
+    - onde eu vou parar remover os convites de uma festa?
+
+- intent: add_amg
+  examples: |
+    - como eu adiciono um amigo?
+    - como eu envio uma solicitação de amizade?
+    - como eu faço para adicionar alguem que eu conheço?
+    - onde eu adiciono amigos no app?
+    - onde eu consigo achar amigos no app?
+    - como faço para enviar solicitações de amizade?
+
+- intent: acc_amg
+  examples: |
+    - como eu aceito uma solicitação de amizade?
+    - um amigo me enviou uma solicitação, onde eu aceito?
+    - como eu faço para recusar uma solicitação de amizade?
+    - onde eu vou para encontrar minhas solicitações de amizade?
+
+- intent: exit_evento
+  examples: |
+    - como eu faço para sair de um evento?
+    - como eu faço para cancelar minha presença de um evento?
+    - como cancelar presença?
+    - como eu tiro minha participação de um evento?
+    - como eu faço se eu desistir de uma festa?
+    - como eu faço se eu nao puder mais ir para um evento?
+
+- intent: ver_convites
+  examples: |
+    - onde eu vejo o eventos que fui convidado?
+    - como faço para aceitar um convite de evento?
+    - como vejo meus convites?
+    - como aceito o convite para uma festa?
+    - onde eu vou parar ver meus convites recebidos?

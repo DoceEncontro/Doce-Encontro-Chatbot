@@ -1,0 +1,113 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedir
+  - afirmacao
+  - recusar
+  - bot_challenge
+  - cadastro_user
+  - login_user
+  - cria_evento
+  - tks
+  - ver_evento
+  - edita_evento
+  - exclui_evento
+  - cad_presente
+  - edita_presente
+  - exclui_presente
+  - entrega_presente
+  - ver_part
+  - ver_guests
+  - guest
+  - out_guest
+  - ver_local
+  - del_guest
+  - add_amg
+  - acc_amg
+  - exit_evento
+  - ver_convites
+
+responses:
+  utter_default:
+    - text: "Desculpe, não entendi. Pode reformular, por favor?"
+    
+  utter_greet:
+  - text: "Olá, eu sou a assistente virtual do Doce Encontro! Como eu posso te ajudar?"
+
+  utter_did_that_help:
+  - text: "Sua dúvida foi sanada?"
+
+  utter_happy:
+  - text: "Posso te ajudar com mais alguma coisa?"
+
+  utter_goodbye:
+  - text: "Até mais! Se precisar de mais algo, fique a vontade para perguntar!"
+
+  utter_iamabot:
+  - text: "Eu sou um assistente virtual do Doce Encontro!."
+
+  utter_cadastro_user:
+    - text: "Para realizar o cadastro você precisa clicar no botão 'Cadastrar', preencher seus dados (Nome Completo, e-mail e senha) e depois clicar no botão 'Registrar'."
+
+  utter_login:
+    - text: "Para realizar o login antes você precisa se cadastrar. Caso já tenha realizado o cadastro, na tela inicial preencha seu e-mail e senha e clique em 'Entrar'."
+
+  utter_cria_evento:
+    - text: "Para criar um evento você aperta o botão '+' no centro da tela de início, preenche o tipo de evento que planeja organizar, informando o título do evento, descrição, data e local. Logo após aperte o botão 'Salvar' que ele aparecerá no card de eventos."
+
+  utter_ver_evento:
+    - text: "Seus eventos ficam listados na parte superior da página inicial, para mais detalhes sobre o evento clique no card do evento."
+
+  utter_edita_evento:
+    - text: "Para editar seu evento clique no card do seu evento localizado na página inicial e aperte o botão 'Editar'. Confirme as informações e salve."
+
+  utter_exclui_evento:
+    - text: "Para excluir seu evento clique no card do seu evento localizado na página inicial e aperte o botão 'Excluir'."
+
+  utter_cad_presente:
+    - text: "Para cadastrar um presente clique no card do evento e clique no botão 'Presentes', dentro da tela de presentes haverá um botão 'Cadastrar', preencha o nome e a descrição do presente e clique em 'Adicionar'."
+
+  utter_edita_presente:
+    - text: "Para editar um presente, clique no card do evento, clique no botão 'Presentes', clique em 'Editar' sobre o presente que deseja alterar, faça a alteração desejada e aperte em 'Salvar'."
+
+  utter_exclui_presente:
+    - text: "Para excluir um presente, clique no card do evento, clique no botão 'Presentes' e clique em 'Excluir' sobre o presente."
+
+  utter_entrega_presente:
+    - text: "Para escolher presente para entregar, clique no card do evento, clique no botão 'Presentes' e clique em 'Entregar' sobre o presente que deseja entregar, caso não tenha o produto que gostaria de entregar, você pode cadastrar um!"
+
+  utter_ver_part:
+    - text: "Para visualizar os participantes que confirmaram presença no evento, clique no card do evento e entre na opção 'Participantes' que aparecerá a lista de presença."
+
+  utter_ver_guests:
+    - text: "Para visualizar quem foi convidado para o evento e falta confirmar presença, clique no card do evento e entre na opção 'Convidados' que aparecerá a lista de convidados, se você for o dono do evento também poderá enviar convites!"
+
+  utter_guest:
+    - text: "Para convidar um amigo que já possui cadastro no app, basta entrar no evento, entrar na aba de 'Convidados', e no botão 'Convidar Amigos', selecione os amigos que deseja convidar e pressione o botão 'Convidar selecionados'. \nTambém é possível convidar pessoas de fora do app."
+
+  utter_out_guest:
+    - text: "É possível gerar um link de convite do evento para compartilhar, entre no evento desejado, entre na aba de 'Convidados' e selecione o botão de compartilhar."
+
+  utter_ver_local:
+    - text: "É possível ver o local do evento entrando no card no menu principal e pressionando em cima da aba 'Localização'."
+
+  utter_del_guest:
+    - text: "Você pode remover um convite acessando o evento desejado, entrando na aba 'Convidados' e clicando no botão vermelho com uma faixa branca ao lado do nome do convidado que deseja remover."
+
+  utter_add_amg:
+    - text: "Você pode encontrar seus amigos acessando a aba 'Amigos', representada por um ícone de uma pessoa. Em seguida, preencha o e-mail do seu amigo no campo 'Adicionar Amigo' e clique no botão 'Enviar solicitação'."
+
+  utter_acc_amg:
+    - text: "Para aceitar ou recusar uma solicitação de amizade, acesse a aba 'Amigos', representada por um ícone de uma pessoa. E em seguida, vá até o menu 'Recebidos'."
+
+  utter_exit_evento:
+    - text: "Para cancelar sua presença em um evento basta clicar no evento desejado e dentro das informações do evento pressionar o botão 'Sair'."
+
+  utter_ver_convites:
+    - text: "Para aceitar um convite de evento, no menu principal clique no botão que possui um ícone de 'carta', será possível aceitar ou recusar os convites recebidos.  "
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

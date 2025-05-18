@@ -1,0 +1,102 @@
+version: "3.1"
+
+stories:
+
+# - story: happy path
+#   steps:
+#   - intent: saudacao
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: saudacao
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: afirmacao
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: saudacao
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: recusar
+#   - action: utter_goodbye
+
+- story: cad path 1
+  steps:
+  - intent: saudacao
+  - action: utter_greet
+  - intent: cadastro_user
+  - action: utter_cadastro_user
+  - intent: tks
+  - action: utter_happy
+
+- story: cad path 2
+  steps:
+  - intent: cadastro_user
+  - action: utter_cadastro_user
+  - intent: tks
+  - action: utter_happy
+
+- story: cad path 3
+  steps:
+  - intent: saudacao
+  - action: utter_greet
+  - intent: login_user
+  - action: utter_login
+  - intent: cadastro_user
+  - action: utter_cadastro_user
+  - action: utter_did_that_help
+  - intent: afirmacao
+  - action: utter_happy
+
+- story: log path 1
+  steps:
+  - intent: saudacao
+  - action: utter_greet
+  - intent: login_user
+  - action: utter_login
+  - intent: tks
+  - action: utter_happy
+
+- story: log path 2
+  steps:
+  - intent: login_user
+  - action: utter_login
+  - intent: tks
+  - action: utter_happy
+
+- story: criaevento path 1
+  steps:
+  - intent: cria_evento
+  - action: utter_cria_evento
+  - intent: tks
+  - action: utter_happy
+
+- story: verevento path 1
+  steps:
+  - intent: ver_evento
+  - action: utter_ver_evento
+  - intent: tks
+  - action: utter_happy
+
+- story: editaevento path 1
+  steps:
+  - intent: edita_evento
+  - action: utter_edita_evento
+  - intent: tks
+  - action: utter_happy
+
+- story: excluievento path 1
+  steps:
+  - intent: exclui_evento
+  - action: utter_exclui_evento
+  - intent: tks
+  - action: utter_happy
