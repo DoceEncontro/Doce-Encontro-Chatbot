@@ -15,6 +15,9 @@ nlu:
     - iai
     - eae
     - salve
+    - oii chat
+    - ola chat
+    - ei chatbot
 
 - intent: despedir
   examples: |
@@ -88,6 +91,8 @@ nlu:
     - ainda nao tenho cadastro
     - ainda nao fiz conta
     - nao tenho conta
+    - Como eu faço para me cadastrar no aplicativo?  
+    - como eu me cadastro no aplicativo?
 
 - intent: login_user
   examples: |
@@ -190,7 +195,8 @@ nlu:
     - como eu convido um amigo para um evento?
     - como faço para convidar alguem para um evento?
     - como eu chamo um amigo para o evento?
-    - como convido um amigo para a festa?
+    - como convido um amigo para a festa?    
+    - como eu compartilho um evento com meus amigos?
 
 - intent: out_guest
   examples: |

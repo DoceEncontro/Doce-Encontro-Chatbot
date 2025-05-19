@@ -39,7 +39,7 @@ responses:
   - text: "Sua dúvida foi sanada?"
 
   utter_happy:
-  - text: "Posso te ajudar com mais alguma coisa?"
+  - text: "Espero que eu tenha sido útil! Posso te ajudar com mais alguma coisa?"
 
   utter_goodbye:
   - text: "Até mais! Se precisar de mais algo, fique a vontade para perguntar!"
