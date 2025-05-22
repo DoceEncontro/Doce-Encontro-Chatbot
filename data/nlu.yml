@@ -101,6 +101,21 @@ nlu:
     - como eu logo?
     - onde faz login?
     - como entra no app?
+    - onde eu faço login?
+    - onde eu entro no sistema?
+    - como acessar minha conta?
+    - onde eu coloco meu usuário e senha?
+    - quero entrar no sistema
+    - como faço para entrar?
+    - onde faço para entrar?
+    - quero fazer login
+    - como faço o login no app?
+    - preciso fazer login, como faz?
+    - como inicio sessão?
+    - tem como logar no sistema?
+    - como me conecto ao app?
+    - onde faço para logar?
+    - quero logar, como faço?
 
 - intent: cria_evento
   examples: |
@@ -111,6 +126,30 @@ nlu:
     - como eu crio um cha de fralda?
     - como eu crio um cha revelação?
     - como eu faço para criar um evento?
+    - preciso criar um evento
+    - tem como criar um evento?
+    - quero fazer um evento
+    - quero agendar um evento
+    - como cadastrar um evento?
+    - como montar um evento?
+    - dá pra criar evento aqui?
+    - como planejar um evento?
+    - como organizar uma festa?
+    - quero criar uma comemoração
+    - como eu crio um chá de bebê?
+    - como eu crio um chá de fralda?
+    - como eu crio um chá revelação?
+    - como eu faço uma confraternização?
+    - como marcar uma reunião de amigos?
+    - preciso agendar uma celebração
+    - quero organizar um encontro
+    - como eu preparo um evento?
+    - onde começo para planejar uma festa?
+    - como eu lanço um evento no sistema?
+    - dá pra programar uma comemoração?
+    - como planejar um evento social?
+    - quero agendar um encontro com a família
+    - posso montar uma festa por aqui?
 
 - intent: ver_evento
   examples: |
@@ -123,6 +162,24 @@ nlu:
     - onde eu vejo mais detalhes do evento?
     - quero ver mais especificações dos eventos?
     - onde vejo informações mais especificas de um evento?
+    - como acessar um evento que já criei?
+    - onde encontro os eventos cadastrados?
+    - quero visualizar meus eventos
+    - onde posso consultar meus eventos?
+    - onde posso ver os dados de um evento?
+    - como faço para checar os eventos que criei?
+    - onde estão as informações dos eventos?
+    - quero conferir os eventos criados
+    - como visualizar um evento específico?
+    - onde posso ver um evento que já existe?
+    - como eu vejo os eventos agendados?
+    - como consulto um evento?
+    - como vejo o que já está marcado?
+    - quero olhar os detalhes de um evento
+    - tem como ver as informações completas de um evento?
+    - como verifico os dados de um evento?
+    - onde olho as informações do evento?
+    - como eu visualizo detalhes de uma festa?
 
 - intent: edita_evento
   examples: |
@@ -130,6 +187,26 @@ nlu:
     - como faz para editar um evento?
     - como edito um evento ja criado?
     - onde eu vou para editar o evento que criei?
+    - quero modificar um evento
+    - como posso alterar um evento?
+    - preciso mudar os dados de um evento
+    - como faço para atualizar um evento?
+    - tem como editar um evento já criado?
+    - onde posso alterar um evento?
+    - quero fazer mudanças em um evento
+    - como faço ajustes em um evento?
+    - onde atualizo um evento existente?
+    - quero corrigir informações do evento
+    - como edito as informações do meu evento?
+    - dá pra mudar um evento que já criei?
+    - como faço para revisar um evento?
+    - como posso refazer um evento que já está criado?
+    - onde eu encontro a opção de editar um evento?
+    - como faço para mexer em um evento criado?
+    - preciso editar os dados de um evento que cadastrei
+    - onde faço ajustes em um evento cadastrado?
+    - quero atualizar um evento que já registrei
+    - quero alterar informações de uma festa
 
 - intent: exclui_evento
   examples: |
@@ -139,6 +216,25 @@ nlu:
     - onde exclui meus evento?
     - onde excluo meus eventos?
     - como faço para excluir meus eventos?
+    - quero apagar um evento
+    - como eu deleto um evento?
+    - tem como remover um evento?
+    - como cancelar um evento que já criei?
+    - onde posso apagar um evento?
+    - quero deletar um evento antigo
+    - como elimino um evento do sistema?
+    - preciso excluir um evento
+    - onde clico para remover um evento?
+    - como tiro um evento da lista?
+    - quero cancelar um evento marcado
+    - como faço para deletar meu evento?
+    - como apago um evento específico?
+    - onde eu encontro a opção de excluir evento?
+    - é possível remover um evento que já cadastrei?
+    - dá pra apagar um evento já criado?
+    - como retiro um evento do sistema?
+    - onde desativo um evento que criei?
+    - quero desfazer um evento
 
 - intent: cad_presente
   examples: |
@@ -146,6 +242,24 @@ nlu:
     - como eu insiro um presente que ainda nao tem?
     - onde eu cadastro presente?
     - como eu cadastro um presente em um evento?
+    - quero adicionar um presente
+    - como faço para registrar um presente?
+    - como coloco um novo presente no evento?
+    - onde adiciono um presente que não está na lista?
+    - tem como lançar um presente?
+    - como faço para incluir um presente?
+    - quero inserir um item novo na lista de presentes
+    - como eu adiciono um gift no evento?
+    - como coloco uma lembrança no evento?
+    - posso cadastrar um presente manualmente?
+    - onde posso registrar um presente novo?
+    - quero colocar um presente que não está listado
+    - preciso adicionar um presente ao evento
+    - como lanço um presente na lista?
+    - onde se cadastra um presente?
+    - como faço para incluir um item de presente?
+    - como adiciono uma sugestão de presente?
+    - onde preencho os dados de um presente?
 
 - intent: edita_presente
   examples: |
@@ -154,6 +268,22 @@ nlu:
     - como eu altero as informações de um presente?
     - onde eu altero informações sobre um presente?
     - como eu mudo meu presente?
+    - quero modificar um presente que cadastrei
+    - como faço para atualizar um presente?
+    - como posso corrigir os dados de um presente?
+    - tem como alterar um item da lista de presentes?
+    - onde eu posso editar um gift?
+    - preciso ajustar os dados de um presente
+    - como modifico um presente já existente?
+    - onde posso mudar o presente que registrei?
+    - quero mudar uma lembrança que adicionei
+    - como faço para trocar os dados de um presente?
+    - posso revisar um item da lista de presentes?
+    - como atualizo a descrição de um presente?
+    - quero mudar o nome de um presente
+    - como faço para mexer em um presente cadastrado?
+    - onde faço alterações em um presente?
+    - como faço uma mudança no presente que escolhi?
 
 - intent: exclui_presente
   examples: |
@@ -163,6 +293,22 @@ nlu:
     - como eu faço para excluir um presente?
     - como retiro um presente de um evento?
     - onde vou para excluir um presente?
+    - quero apagar um presente
+    - como faço para remover um presente?
+    - onde excluo um gift?
+    - tem como deletar um presente?
+    - preciso eliminar um item da lista
+    - como faço para cancelar um presente cadastrado?
+    - quero tirar um presente do evento
+    - como remover uma lembrança da lista?
+    - onde posso apagar um presente?
+    - como deleto um item que adicionei?
+    - como excluo um presente da lista do evento?
+    - dá pra remover um presente que cadastrei?
+    - quero eliminar um gift
+    - como desfaço um presente que já registrei?
+    - como faço para apagar um presente antigo?
+    - tem como retirar um presente manualmente?
 
 - intent: entrega_presente
   examples: | 
@@ -172,6 +318,20 @@ nlu:
     - como determino o presente que vou entregar?
     - como eu faço para escolher um presente para dar?
     - onde seleciono a entrega do presente?
+    - como faço para definir qual presente vou dar?
+    - onde escolho o gift que vou entregar?
+    - quero decidir qual presente dar
+    - como seleciono um presente para entregar?
+    - onde eu determino o presente para entregar?
+    - como faço para escolher um item para presente?
+    - quero escolher a lembrança que vou dar
+    - como escolher um presente para alguém?
+    - como faço para entregar o presente escolhido?
+    - onde marco a entrega do presente?
+    - posso escolher o presente antes da entrega?
+    - como decidir qual presente enviar?
+    - onde escolho o presente para envio?
+    - como determino o gift que vou dar?
 
 - intent: ver_part
   examples: |
@@ -181,6 +341,18 @@ nlu:
     - onde eu vejo quem estara presente no evento?
     - onde eu vejo quem vai?
     - como faço para ver quem estara em um evento?
+    - onde posso consultar os participantes do evento?
+    - quero ver quem confirmou para o evento
+    - onde posso checar os confirmados no evento?
+    - como faço para olhar quem vai comparecer?
+    - onde encontro a lista de pessoas que vão ao evento?
+    - como conferir quem estará no evento?
+    - quero saber quem está confirmado no evento
+    - como faço para acessar os participantes?
+    - onde posso ver quem aceitou o convite?
+    - como posso verificar a presença no evento?
+    - onde consulto quem vai ao evento?
+    - quero listar os participantes do evento
 
 - intent: ver_guests
   examples: |
@@ -188,6 +360,18 @@ nlu:
     - onde eu vejo quem foi convidado para o evento?
     - como eu vejo os convidados do evento?
     - como faço para ver os convidados de um evento?
+    - quero ver a lista de convidados
+    - onde encontro os convidados do evento?
+    - como consultar os convidados do evento?
+    - como visualizar a lista de convidados?
+    - onde posso checar os convidados?
+    - quero acessar quem foi convidado
+    - como faço para consultar os convidados?
+    - onde vejo os guests do evento?
+    - como vejo as pessoas convidadas para o evento?
+    - quero saber quem está na lista de convidados
+    - onde eu encontro os convidados confirmados?
+    - como vejo os convidados presentes no evento?
 
 - intent: guest
   examples: |
@@ -257,3 +441,41 @@ nlu:
     - como vejo meus convites?
     - como aceito o convite para uma festa?
     - onde eu vou parar ver meus convites recebidos?
+
+- intent: evento
+  examples: |
+    - chá de bebê
+    - chá de bebe
+    - chá revelação
+    - cha revelacao
+    - chá de fralda
+    - cha de fralda
+    - festa de bebê
+    - festa de fralda
+    - evento chá de bebê
+    - evento chá revelação
+    - evento chá de fralda
+    - comemoração de bebê
+    - comemoração chá de fralda
+    - reunião para o bebê
+    - encontro chá de bebê
+    - festa para o bebê
+    - preparo para bebê (chá)
+    - evento para celebrar o bebê
+
+- intent: churrasco
+  examples: |
+    - quero fazer um churrasco
+    - como eu marco meu aniversario?
+    - quero agendar um picnic
+    - quero organizar meu noivado
+    - quero organizar um casamento
+    - gostaria de anunciar minha formatura
+    - churrasco
+    - aniversario
+    - piquenique
+    - picnic
+    - noivado
+    - casamento
+    - formatura
+    - happy hour

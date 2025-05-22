@@ -100,3 +100,10 @@ stories:
   - action: utter_exclui_evento
   - intent: tks
   - action: utter_happy
+
+- story: organizacao path 1
+  steps:
+  - intent: churrasco
+  - action: utter_churrasco
+  - intent: evento
+  - action: utter_cria_evento

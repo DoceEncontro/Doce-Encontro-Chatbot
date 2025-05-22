@@ -27,6 +27,8 @@ intents:
   - acc_amg
   - exit_evento
   - ver_convites
+  - churrasco
+  - evento
 
 responses:
   utter_default:
@@ -106,6 +108,9 @@ responses:
 
   utter_ver_convites:
     - text: "Para aceitar um convite de evento, no menu principal clique no botão que possui um ícone de 'carta', será possível aceitar ou recusar os convites recebidos.  "
+
+  utter_churrasco:
+    - text: "Nosso sistema organiza eventos como chá de bebe, chá revelação e chá de fralda, qual desses você gostaria de organizar?"
 
 
 session_config:
