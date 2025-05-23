@@ -1,0 +1,52 @@
+# Arquivos/Pastas do Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+ENV/
+*.log
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Cache do pip
+pip-wheel-metadata/
+*.whl
+
+# Dados e modelos gerados pelo Rasa
+models/
+*.tar.gz
+.rasa/
+
+# Dados de treinamento temporários
+*.db
+*.json
+*.md
+
+# Histórico do shell e outros arquivos sensíveis
+*.sqlite3
+*.pem
+*.key
+
+# VSCode e outros IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de teste temporários
+*.tmp
+*.test.py
+
+# Arquivos de lock (opcional, se você não quiser versionar)
+poetry.lock
+Pipfile.lock
