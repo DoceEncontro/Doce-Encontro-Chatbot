@@ -15,16 +15,16 @@ Certifique-se de que você possui:
 
 ## ⚙️ Instalação
 
-1. **Clone o repositório**
-git clone https://github.com/DoceEncontro/Chatbot.git
+1. **Clone o repositório**  
+git clone https://github.com/DoceEncontro/Chatbot.git  
 
-2. **Criação do ambiente Virtual**
-python -m venv venv
-source venv/bin/activate   # Para Linux ou macOS
-venv\Scripts\activate      # Para Windows
+2. **Criação do ambiente Virtual**  
+python -m venv venv  
+source venv/bin/activate   # Para Linux ou macOS  
+venv\Scripts\activate      # Para Windows  
 
-3. **Instalações**
+3. **Instalações**  
 pip install rasa
 
-4. **Execução**
+4. **Execução**  
 rasa shell
