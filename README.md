@@ -13,8 +13,10 @@ Certifique-se de que você possui:
 
 ---
 
-## ⚙️ Instalação
+## ⚙️ Instalação  
 
+No prompt de comando ou no terminal, execute os seguintes códigos:  
+  
 1. **Clone o repositório**  
 git clone https://github.com/DoceEncontro/Chatbot.git  
 
